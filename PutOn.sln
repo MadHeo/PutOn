@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeCamera.Runtime", "NativeCamera.Runtime.csproj", "{F8DF7397-6D2E-5C70-D6D2-853275860F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeCamera.Editor", "NativeCamera.Editor.csproj", "{E3325297-134F-7EE3-E79C-C5EC7BF08C8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DF7397-6D2E-5C70-D6D2-853275860F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DF7397-6D2E-5C70-D6D2-853275860F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DF7397-6D2E-5C70-D6D2-853275860F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DF7397-6D2E-5C70-D6D2-853275860F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3325297-134F-7EE3-E79C-C5EC7BF08C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3325297-134F-7EE3-E79C-C5EC7BF08C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3325297-134F-7EE3-E79C-C5EC7BF08C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3325297-134F-7EE3-E79C-C5EC7BF08C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
