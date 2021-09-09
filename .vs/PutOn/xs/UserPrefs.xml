@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/CameraPage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraManager.cs">
     <Files>
       <File FileName="Assets/CameraManager.cs" Line="16" Column="59" />
-      <File FileName="Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef" Line="1" Column="1" />
-      <File FileName="Assets/Plugins/NativeCamera/README.txt" Line="35" Column="139" />
-      <File FileName="Assets/script/CameraPage.cs" Line="48" Column="38" />
+      <File FileName="Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef" />
+      <File FileName="Assets/Plugins/NativeCamera/README.txt" />
+      <File FileName="Assets/script/CameraPage.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7af065ca-41a8-437f-af06-3f080fe98647" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4660a542-dc86-4d78-9148-4a86c904e5ee" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
