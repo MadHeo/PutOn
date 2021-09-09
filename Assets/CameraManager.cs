@@ -50,13 +50,4 @@ public class CameraManager : MonoBehaviour
 
     }
 
-    //public void CameraOff() //카메라 끄기
-    //{
-    //    if (camTexture != null)
-    //    {
-    //        camTexture.Stop(); //카메라 정지
-    //        WebCamTexture.Destroy(camTexture); //카메라 객체반납
-    //        camTexture = null; //변수 초기화
-    //    }
-    //}
 }
