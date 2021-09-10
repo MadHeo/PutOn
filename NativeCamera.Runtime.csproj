@@ -56,10 +56,10 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Plugins/NativeCamera/Android/NCCallbackHelper.cs" />
-    <Compile Include="Assets/Plugins/NativeCamera/Android/NCPermissionCallbackAndroid.cs" />
-    <Compile Include="Assets/Plugins/NativeCamera/iOS/NCCameraCallbackiOS.cs" />
     <Compile Include="Assets/Plugins/NativeCamera/NativeCamera.cs" />
+    <Compile Include="Assets/Plugins/NativeCamera/Android/NCCallbackHelper.cs" />
+    <Compile Include="Assets/Plugins/NativeCamera/iOS/NCCameraCallbackiOS.cs" />
+    <Compile Include="Assets/Plugins/NativeCamera/Android/NCPermissionCallbackAndroid.cs" />
     <Compile Include="Assets/Plugins/NativeCamera/Android/NCCameraCallbackAndroid.cs" />
   </ItemGroup>
   <ItemGroup>
