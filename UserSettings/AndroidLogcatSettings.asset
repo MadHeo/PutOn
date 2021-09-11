@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "RF9R40455AF",
+    "m_SelectedDeviceId": "R39M2013XLZ",
     "m_SelectedPackage": {
-        "deviceId": "RF9R40455AF",
+        "deviceId": "R39M2013XLZ",
         "name": "com.DefaultCompany.PutOn",
-        "processId": 2105,
+        "processId": 3112,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,6 +12,30 @@
             "deviceId": "RF9R40455AF",
             "name": "com.DefaultCompany.PutOn",
             "processId": 2105,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 19634,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 11070,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 32390,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 3112,
             "exited": false
         }
     ],
