@@ -58,7 +58,6 @@
   <ItemGroup>
     <Compile Include="Assets/script/CameraPage.cs" />
     <Compile Include="Assets/CameraManager.cs" />
-    <Compile Include="Assets/Animator/NestedAnimation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

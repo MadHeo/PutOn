@@ -6,13 +6,19 @@ ScriptsOnlyBuild:
     - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.XR.ARCore.Editor.dll:
-    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -52,44 +58,46 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1440}
+      Script: {instanceID: 1444}
     - Class: 114
-      Script: {instanceID: 1442}
+      Script: {instanceID: 1446}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1658}
     - Class: 114
-      Script: {instanceID: 1964}
+      Script: {instanceID: 1996}
     - Class: 114
-      Script: {instanceID: 2090}
+      Script: {instanceID: 2128}
     - Class: 114
-      Script: {instanceID: 2260}
+      Script: {instanceID: 2300}
     - Class: 114
-      Script: {instanceID: 2358}
+      Script: {instanceID: 2404}
     - Class: 114
-      Script: {instanceID: 2510}
+      Script: {instanceID: 2572}
     - Class: 114
-      Script: {instanceID: 2688}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 2784}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 3190}
     - Class: 114
-      Script: {instanceID: 3610}
+      Script: {instanceID: 3566}
     - Class: 114
-      Script: {instanceID: 4288}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 21024}
+      Script: {instanceID: 4422}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -105,6 +113,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -175,6 +185,12 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeCamera.Runtime.dll
+    namespaceName: NativeCameraNamespace
+    className: NCCallbackHelper
+  - hash:
+      serializedVersion: 2
       Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -209,6 +225,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPointCloudMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeCamera.Runtime.dll
+    namespaceName: NativeCameraNamespace
+    className: NCCameraCallbackiOS
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -497,6 +519,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARTrackedImage
+  - hash:
+      serializedVersion: 2
+      Hash: aeaa2c92e162730d98e59cdf24cd00d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraPage
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -803,25 +831,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: NativeCamera.Runtime.dll
-    namespaceName: NativeCameraNamespace
-    className: NCCallbackHelper
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: NativeCamera.Runtime.dll
-    namespaceName: NativeCameraNamespace
-    className: NCCameraCallbackiOS
-  - hash:
-      serializedVersion: 2
-      Hash: aeaa2c92e162730d98e59cdf24cd00d2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraPage
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/kwanggiheo/Desktop/putonbuild.apk
+  playerPath: /Users/kwanggiheo/Desktop/putonbuild2.apk
