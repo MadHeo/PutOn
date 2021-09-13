@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/PagingScrollViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/draggable.cs">
     <Files>
       <File FileName="Assets/CameraManager.cs" Line="26" Column="38" />
       <File FileName="Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef" />
       <File FileName="Assets/Plugins/NativeCamera/README.txt" />
       <File FileName="Assets/script/CameraPage.cs" />
       <File FileName="Assets/script/ViewController.cs" Line="14" Column="45" />
-      <File FileName="Assets/script/PagingScrollViewController.cs" Line="115" Column="57" />
+      <File FileName="Assets/script/PagingScrollViewController.cs" Line="25" Column="37" />
+      <File FileName="Assets/script/draggable.cs" Line="5" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
