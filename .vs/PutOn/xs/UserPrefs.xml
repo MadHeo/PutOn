@@ -7,7 +7,7 @@
       <File FileName="Assets/script/CameraPage.cs" />
       <File FileName="Assets/script/ViewController.cs" Line="14" Column="45" />
       <File FileName="Assets/script/PagingScrollViewController.cs" Line="25" Column="37" />
-      <File FileName="Assets/script/draggable.cs" Line="5" Column="4" />
+      <File FileName="Assets/script/draggable.cs" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
