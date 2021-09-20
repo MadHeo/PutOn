@@ -56,11 +56,12 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/script/ViewController.cs" />
+    <Compile Include="Assets/script/draggable.cs" />
     <Compile Include="Assets/script/CameraPage.cs" />
     <Compile Include="Assets/CameraManager.cs" />
-    <Compile Include="Assets/script/ViewController.cs" />
     <Compile Include="Assets/script/PagingScrollViewController.cs" />
-    <Compile Include="Assets/script/draggable.cs" />
+    <Compile Include="Assets/script/TableViewCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
