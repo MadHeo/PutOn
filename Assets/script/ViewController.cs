@@ -20,7 +20,6 @@ public class ViewController : MonoBehaviour
 
     }
 
-public virtual string Title { get { return ""; } set { } }    
-
-
+    public virtual string Title { get { return ""; } set { } }
+    
 }
