@@ -59,9 +59,13 @@
     <Compile Include="Assets/script/ViewController.cs" />
     <Compile Include="Assets/script/draggable.cs" />
     <Compile Include="Assets/script/CameraPage.cs" />
-    <Compile Include="Assets/CameraManager.cs" />
+    <Compile Include="Assets/script/CameraManager.cs" />
     <Compile Include="Assets/script/PagingScrollViewController.cs" />
     <Compile Include="Assets/script/TableViewCell.cs" />
+    <Compile Include="Assets/script/SpriteSheetManager.cs" />
+    <Compile Include="Assets/script/TableViewController.cs" />
+    <Compile Include="Assets/script/NavigationViewController.cs" />
+    <Compile Include="Assets/script/iTweenEventHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
