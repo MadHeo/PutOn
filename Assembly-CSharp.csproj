@@ -703,6 +703,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{5E7A7CFE-1A1E-4E66-E20D-913A05BEE1F1}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="NativeCamera.Runtime.csproj">
       <Project>{F8DF7397-6D2E-5C70-D6D2-853275860F38}</Project>
       <Name>NativeCamera.Runtime</Name>

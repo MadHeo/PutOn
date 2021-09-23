@@ -12,7 +12,7 @@
       <File FileName="Assets/script/SpriteSheetManager.cs" />
       <File FileName="Assets/script/TableViewController.cs" />
       <File FileName="Assets/script/NavigationViewController.cs" Line="70" Column="6" />
-      <File FileName="Assets/script/iTweenEventHandler.cs" Line="4" Column="2" />
+      <File FileName="Assets/script/iTweenEventHandler.cs" Line="56" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
