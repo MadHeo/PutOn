@@ -2,9 +2,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
 [RequireComponent(typeof(CanvasGroup))]
 public class NavigationViewController : ViewController
 {
+
     private Stack<ViewController> stackedViews =
         new Stack<ViewController>();
     private ViewController currentView = null;
@@ -115,4 +118,5 @@ public class NavigationViewController : ViewController
     
 
 }
+
 

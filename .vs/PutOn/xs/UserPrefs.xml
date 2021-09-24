@@ -1,27 +1,21 @@
 ﻿<Properties StartupConfiguration="{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/iTweenEventHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/SpriteSheetManager.cs">
     <Files>
-      <File FileName="Assets/script/TableViewCell.cs" Line="43" Column="28" />
-      <File FileName="Assets/CameraManager.cs" />
-      <File FileName="Assets/Plugins/NativeCamera/NativeCamera.Runtime.asmdef" />
-      <File FileName="Assets/Plugins/NativeCamera/README.txt" />
-      <File FileName="Assets/script/CameraPage.cs" />
-      <File FileName="Assets/script/ViewController.cs" Line="20" Column="1" />
-      <File FileName="Assets/script/PagingScrollViewController.cs" Line="7" Column="1" />
-      <File FileName="Assets/script/draggable.cs" />
-      <File FileName="Assets/script/SpriteSheetManager.cs" />
-      <File FileName="Assets/script/TableViewController.cs" />
-      <File FileName="Assets/script/NavigationViewController.cs" Line="70" Column="6" />
-      <File FileName="Assets/script/iTweenEventHandler.cs" Line="56" Column="28" />
+      <File FileName="Assets/script/TableViewController.cs" Line="21" Column="14" />
+      <File FileName="Assets/script/NavigationViewController.cs" Line="79" Column="20" />
+      <File FileName="Assets/script/iTweenEventHandler.cs" Line="11" Column="48" />
+      <File FileName="Assets/script/ShopDetailViewController.cs" Line="20" Column="53" />
+      <File FileName="Assets/script/ViewController.cs" Line="12" Column="12" />
+      <File FileName="Assets/script/ShopitemTableViewController.cs" Line="22" Column="1" />
+      <File FileName="Assets/script/ShopItemTableViewCell.cs" Line="21" Column="6" />
+      <File FileName="Assets/script/SpriteSheetManager.cs" Line="21" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c127b02a-dda9-4778-a5bf-b95bf20dfc96" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/kwanggiheo/Desktop/PutOn/Assets/script/TableViewCell.cs" relfile="Assets/script/TableViewCell.cs" line="26" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

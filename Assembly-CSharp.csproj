@@ -66,6 +66,10 @@
     <Compile Include="Assets/script/TableViewController.cs" />
     <Compile Include="Assets/script/NavigationViewController.cs" />
     <Compile Include="Assets/script/iTweenEventHandler.cs" />
+    <Compile Include="Assets/script/ShopDetailViewController.cs" />
+    <Compile Include="Assets/script/NewBehaviourScript.cs" />
+    <Compile Include="Assets/script/ShopitemTableViewController.cs" />
+    <Compile Include="Assets/script/ShopItemTableViewCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
