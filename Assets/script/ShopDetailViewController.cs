@@ -10,6 +10,13 @@ public class ShopDetailViewController : ViewController
     [SerializeField] private Text nameLabel;
     [SerializeField] private Text descriptionLabel;
     [SerializeField] private Text priceLabel;
+    [SerializeField] private ShopConfirmationViewController confirmationView;
+
+    public void OnPressBuyButton()
+    {
+        confirmationView.UpdateContent(itemData);
+        navigationView.Push(confirmationView);
+    }
     private ShopItemData itemData;
 
     public override string Title

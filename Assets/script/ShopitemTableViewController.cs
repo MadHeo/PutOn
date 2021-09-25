@@ -6,9 +6,11 @@ using UnityEngine.UI;
 public class ShopitemTableViewController : TableViewController<ShopItemData>
 {
     [SerializeField] private NavigationViewController navigationView;
+    [SerializeField] private ShopDetailViewController detailView;
 
     public override string Title { get { return "SHOP"; } }
 
+    
     private void LoadData()
     {
 
@@ -64,5 +66,15 @@ public class ShopitemTableViewController : TableViewController<ShopItemData>
         //base.Start();
 
         //LoadData();
+    }
+
+    public void OnPressCell(ShopItemTableViewCell cell)
+    {
+        if (navigationView != null)
+        {
+            detailView.UpdateContent(tableData[cell.DataIndex]);
+
+            navigationView.Push(detailView);
+        }
     }
 }

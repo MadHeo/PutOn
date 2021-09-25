@@ -25,4 +25,6 @@ public class ShopItemTableViewCell : TableViewCell<ShopItemData>
         iconImage.sprite = 
             SpriteSheetManager.GetSpriteByName("IconAtlas", itemData.iconName);
     }
+    
+
 }
