@@ -56,22 +56,22 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/script/iTweenEventHandler.cs" />
     <Compile Include="Assets/script/ViewController.cs" />
+    <Compile Include="Assets/script/ShopitemTableViewController.cs" />
     <Compile Include="Assets/script/draggable.cs" />
+    <Compile Include="Assets/script/TableViewController.cs" />
+    <Compile Include="Assets/script/TableViewCell.cs" />
+    <Compile Include="Assets/script/NavigationViewController.cs" />
+    <Compile Include="Assets/script/ShopDetailViewController.cs" />
     <Compile Include="Assets/script/CameraPage.cs" />
+    <Compile Include="Assets/script/SpriteSheetManager.cs" />
+    <Compile Include="Assets/script/AlertViewController.cs" />
     <Compile Include="Assets/script/CameraManager.cs" />
     <Compile Include="Assets/script/PagingScrollViewController.cs" />
-    <Compile Include="Assets/script/TableViewCell.cs" />
-    <Compile Include="Assets/script/SpriteSheetManager.cs" />
-    <Compile Include="Assets/script/TableViewController.cs" />
-    <Compile Include="Assets/script/NavigationViewController.cs" />
-    <Compile Include="Assets/script/iTweenEventHandler.cs" />
-    <Compile Include="Assets/script/ShopDetailViewController.cs" />
     <Compile Include="Assets/script/NewBehaviourScript.cs" />
-    <Compile Include="Assets/script/ShopitemTableViewController.cs" />
     <Compile Include="Assets/script/ShopItemTableViewCell.cs" />
     <Compile Include="Assets/script/ShopConfirmationViewController.cs" />
-    <Compile Include="Assets/script/AlertViewController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
