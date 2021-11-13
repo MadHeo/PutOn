@@ -1,3 +1,14 @@
 ﻿<Properties StartupConfiguration="{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/OpenUrl.cs">
+    <Files>
+      <File FileName="Assets/script/OpenUrl.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fe3036a5-2daf-465a-a5ee-2149e49a9702" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
