@@ -4,16 +4,18 @@ ScriptsOnlyBuild:
     - AlertViewController
     - CameraPage
     - NavigationViewController
+    - OpenUrl
     - PagingScrollViewController
     - ShopConfirmationViewController
     - ShopDetailViewController
     - ShopitemTableViewController
     - draggable
     Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatConsoleWindow
     - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.ARCore.Editor.dll:
+    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -29,8 +31,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEditor.UI.dll:
-    - UnityEditor.UI.TextEditor
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -80,55 +80,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1446}
     - Class: 114
-      Script: {instanceID: 1610}
+      Script: {instanceID: 1448}
     - Class: 114
-      Script: {instanceID: 1658}
+      Script: {instanceID: 1612}
     - Class: 114
-      Script: {instanceID: 1670}
+      Script: {instanceID: 1660}
     - Class: 114
-      Script: {instanceID: 1996}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 2130}
+      Script: {instanceID: 2124}
     - Class: 114
-      Script: {instanceID: 2164}
+      Script: {instanceID: 2134}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2168}
     - Class: 114
-      Script: {instanceID: 2408}
+      Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 2576}
+      Script: {instanceID: 2416}
     - Class: 114
-      Script: {instanceID: 2762}
+      Script: {instanceID: 2492}
     - Class: 114
-      Script: {instanceID: 2772}
+      Script: {instanceID: 2586}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 2862}
+      Script: {instanceID: 2776}
     - Class: 114
-      Script: {instanceID: 3026}
+      Script: {instanceID: 2786}
     - Class: 114
-      Script: {instanceID: 3130}
+      Script: {instanceID: 2856}
     - Class: 114
-      Script: {instanceID: 3194}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3726}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3778}
+      Script: {instanceID: 3208}
     - Class: 114
-      Script: {instanceID: 4428}
+      Script: {instanceID: 3554}
     - Class: 114
-      Script: {instanceID: 22514}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 23512}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 23522}
+      Script: {instanceID: 3802}
     - Class: 114
-      Script: {instanceID: 23548}
+      Script: {instanceID: 4230}
     - Class: 114
-      Script: {instanceID: 45232}
+      Script: {instanceID: 4458}
+    - Class: 114
+      Script: {instanceID: 17058}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -160,6 +162,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
@@ -259,6 +267,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: iTweenEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: NativeCamera.Runtime.dll
     namespaceName: NativeCameraNamespace
     className: NCCameraCallbackiOS
@@ -282,12 +296,6 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: f1d735cc1a21c3704ab52568f4fbfcf8
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -298,6 +306,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ViewController
+  - hash:
+      serializedVersion: 2
+      Hash: 123e9f3970037b2f16759c4788f5749a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShopitemTableViewController
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -384,6 +398,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: af10e803eed2cd88df5a25760f1fc91d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NavigationViewController
+  - hash:
+      serializedVersion: 2
       Hash: 0c5108545fb925730d4d5887ebcdd20c
     assemblyName: Unity.XR.ARSubsystems.dll
     namespaceName: UnityEngine.XR.ARSubsystems
@@ -426,10 +446,22 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: MoveSample
+  - hash:
+      serializedVersion: 2
       Hash: 1268406d3f2e4b2c2b670b560b6db769
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: bf644a3a984664c3dd7c7dacb83f65fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShopDetailViewController
   - hash:
       serializedVersion: 2
       Hash: 6f195866f841a74edf8609a710343f67
@@ -594,6 +626,12 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
+      Hash: 02493766ba0d073bd9e5d602a5878d4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: iTween
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -604,6 +642,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: RotateSample
   - hash:
       serializedVersion: 2
       Hash: 8ab9295d94483c961936d82d233d3df2
@@ -672,10 +716,22 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 5f01e2506606df827527182db7c37b7a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AlertViewController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARCore.dll
     namespaceName: UnityEngine.XR.ARCore
     className: ARCoreLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: SampleInfo
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -804,6 +860,12 @@ ScriptsOnlyBuild:
     className: ARParticipant
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewBehaviourScript
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -822,6 +884,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 94b928d53585dd8ca7765cd4bba7aaa0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShopItemTableViewCell
+  - hash:
+      serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -832,6 +900,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARFaceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2814a685affcf4a429d603ed3b17bb9f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShopConfirmationViewController
   - hash:
       serializedVersion: 2
       Hash: c1aa24dc179be0cb7c6d49f66fc0db8a
@@ -882,76 +956,10 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: af10e803eed2cd88df5a25760f1fc91d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NavigationViewController
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: iTweenEventHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: 
-    className: MoveSample
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: 
-    className: RotateSample
-  - hash:
-      serializedVersion: 2
-      Hash: 02493766ba0d073bd9e5d602a5878d4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: 
-    className: iTween
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: 
-    className: SampleInfo
-  - hash:
-      serializedVersion: 2
-      Hash: bf644a3a984664c3dd7c7dacb83f65fa
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShopDetailViewController
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NewBehaviourScript
-  - hash:
-      serializedVersion: 2
-      Hash: 123e9f3970037b2f16759c4788f5749a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShopitemTableViewController
-  - hash:
-      serializedVersion: 2
-      Hash: 94b928d53585dd8ca7765cd4bba7aaa0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShopItemTableViewCell
-  - hash:
-      serializedVersion: 2
-      Hash: 2814a685affcf4a429d603ed3b17bb9f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShopConfirmationViewController
-  - hash:
-      serializedVersion: 2
-      Hash: 5f01e2506606df827527182db7c37b7a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AlertViewController
+    className: OpenUrl
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

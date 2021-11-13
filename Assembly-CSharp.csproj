@@ -72,6 +72,7 @@
     <Compile Include="Assets/script/NewBehaviourScript.cs" />
     <Compile Include="Assets/script/ShopItemTableViewCell.cs" />
     <Compile Include="Assets/script/ShopConfirmationViewController.cs" />
+    <Compile Include="Assets/script/OpenUrl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
