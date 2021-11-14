@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AlertViewController
     - CameraPage
     - NavigationViewController
+    - OnClickGallery
     - OpenUrl
     - PagingScrollViewController
     - ShopConfirmationViewController
@@ -14,8 +15,6 @@ ScriptsOnlyBuild:
     - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.XR.ARCore.Editor.dll:
-    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -114,23 +113,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3144}
+      Script: {instanceID: 3118}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3146}
     - Class: 114
-      Script: {instanceID: 3554}
+      Script: {instanceID: 3210}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3556}
     - Class: 114
-      Script: {instanceID: 3750}
+      Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 3802}
+      Script: {instanceID: 3752}
     - Class: 114
-      Script: {instanceID: 4230}
+      Script: {instanceID: 3804}
     - Class: 114
-      Script: {instanceID: 4458}
+      Script: {instanceID: 4232}
     - Class: 114
-      Script: {instanceID: 17058}
+      Script: {instanceID: 4460}
+    - Class: 114
+      Script: {instanceID: 18190}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -560,6 +561,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OpenUrl
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -959,7 +966,25 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: OpenUrl
+    className: OnClickGallery
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeGallery.Runtime.dll
+    namespaceName: NativeGalleryNamespace
+    className: NGMediaSaveCallbackiOS
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeGallery.Runtime.dll
+    namespaceName: NativeGalleryNamespace
+    className: NGMediaReceiveCallbackiOS
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: NativeGallery.Runtime.dll
+    namespaceName: NativeGalleryNamespace
+    className: NGCallbackHelper
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
