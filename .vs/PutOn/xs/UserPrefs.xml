@@ -1,7 +1,10 @@
 ﻿<Properties StartupConfiguration="{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/OpenUrl.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/script/OpenUrl.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/OpenUrl.cs" Line="16" Column="1" />
+      <File FileName="Assets/script/OnClickGallery.cs" Line="88" Column="10" />
+      <File FileName="Assets/Plugins/NativeGallery/Android/NGPermissionCallbackAndroid.cs" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/NativeGallery/NativeGallery.cs" Line="363" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
