@@ -33,7 +33,7 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 
     public void OnBeginDrag(PointerEventData pointerEventData)
     {
-        if(draggingObject != null)
+        if (draggingObject != null)
         {
             Destroy(draggingObject);
         }
@@ -49,7 +49,7 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         canvasGroup.blocksRaycasts = false;
 
         Image draggingImage = draggingObject.AddComponent<Image>();
-
+        draggingObject.AddComponent<DraggAndDrop>();
         draggingImage.sprite = sourceImage.sprite;
         draggingImage.rectTransform.sizeDelta = sourceImage.rectTransform.sizeDelta;
         draggingImage.color = sourceImage.color;
@@ -68,8 +68,8 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 
     public void OnEndDrag(PointerEventData pointerEventData)
     {
-        Destroy(draggingObject);
+        //ins
     }
-
 }
+
 
