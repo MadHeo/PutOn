@@ -74,6 +74,7 @@
     <Compile Include="Assets/script/ShopItemTableViewCell.cs" />
     <Compile Include="Assets/script/ShopConfirmationViewController.cs" />
     <Compile Include="Assets/script/OnClickGallery.cs" />
+    <Compile Include="Assets/script/DraggAndDrop.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -33,6 +33,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.AspectRatioFitter
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -94,6 +95,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2168}
     - Class: 114
       Script: {instanceID: 2310}
+    - Class: 114
+      Script: {instanceID: 2402}
     - Class: 114
       Script: {instanceID: 2416}
     - Class: 114
@@ -963,7 +966,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: eed7b7c04a603e43c7241679bd92ea7f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OnClickGallery

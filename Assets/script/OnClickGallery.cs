@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class OnClickGallery : MonoBehaviour
 {
 
-
+	public RawImage TextureImage;
    // void Update()
    // {
    //     if (Input.GetMouseButtonDown(0))
@@ -74,16 +76,22 @@ public class OnClickGallery : MonoBehaviour
 				}
 
 				// Assign texture to a temporary quad and destroy it after 5 seconds
-				GameObject quad = GameObject.CreatePrimitive(PrimitiveType.Quad);
-				quad.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 2.5f;
-				quad.transform.forward = Camera.main.transform.forward;
-				quad.transform.localScale = new Vector3(1f, texture.height / (float)texture.width, 1f);
+				//GameObject quad = GameObject.CreatePrimitive(PrimitiveType.Quad);
+				//quad.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 2.5f;
+				//quad.transform.forward = Camera.main.transform.forward;
+				//quad.transform.localScale = new Vector3(1f, texture.height / (float)texture.width, 1f);
 
-				Material material = quad.GetComponent<Renderer>().material;
-				if (!material.shader.isSupported) // happens when Standard shader is not included in the build
-					material.shader = Shader.Find("Legacy Shaders/Diffuse");
+				//Material material = quad.GetComponent<Renderer>().material;
+				//if (!material.shader.isSupported) // happens when Standard shader is not included in the build
+				//	material.shader = Shader.Find("Legacy Shaders/Diffuse");
 
-				material.mainTexture = texture;
+				//material.mainTexture = texture;
+
+				TextureImage.texture = texture;
+				//var aspectRatioFitter = TextureImage.GetComponent<AspectRatioFitter>();
+    //            aspectRatioFitter.aspectRatio = texture.width / texture.height;
+				//TextureImage.texture.height
+				//transform.localScale = new Vector3(1f, texture.height / (float)texture.width, 1f);
 
 				//Destroy(quad, 5f);
 
