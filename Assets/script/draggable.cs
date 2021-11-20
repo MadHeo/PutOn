@@ -5,13 +5,18 @@ using UnityEngine.EventSystems;
 [RequireComponent(typeof(Image))]
 public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-
-
-
     [SerializeField]
     private Vector2 draggingOffset = new Vector2(0.0f, 40.0f);
+
     private GameObject draggingObject;
     private RectTransform canvasRectTransform;
+    private Transform createdImages;
+
+    private void Awake()
+    {
+        createdImages = GameObject.Find("Canvas/page/Clothes/createdImages").transform;
+    }
+
 
     private void UpdateDraggingObjectPos(PointerEventData pointerEventData)
     {
@@ -41,7 +46,7 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         Image sourceImage = GetComponent<Image>();
 
         draggingObject = new GameObject("Dragging Object");
-        draggingObject.transform.SetParent(sourceImage.canvas.transform);
+        draggingObject.transform.SetParent(createdImages);
         draggingObject.transform.SetAsLastSibling();
         draggingObject.transform.localScale = Vector3.one;
 
