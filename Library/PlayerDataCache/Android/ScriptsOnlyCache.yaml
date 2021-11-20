@@ -988,6 +988,12 @@ ScriptsOnlyBuild:
     assemblyName: NativeGallery.Runtime.dll
     namespaceName: NativeGalleryNamespace
     className: NGCallbackHelper
+  - hash:
+      serializedVersion: 2
+      Hash: ae6bf6d5458acfd7207a6a090fd7a6e1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DraggAndDrop
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
