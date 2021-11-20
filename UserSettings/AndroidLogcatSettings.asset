@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R39M2013XLZ",
         "name": "com.DefaultCompany.PutOn",
-        "processId": 17119,
+        "processId": 16737,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -222,6 +222,18 @@
             "deviceId": "R39M2013XLZ",
             "name": "com.DefaultCompany.PutOn",
             "processId": 17119,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 15399,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 16737,
             "exited": false
         }
     ],
