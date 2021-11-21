@@ -76,6 +76,7 @@
     <Compile Include="Assets/script/OnClickGallery.cs" />
     <Compile Include="Assets/script/DraggAndDrop.cs" />
     <Compile Include="Assets/script/ClothesPage.cs" />
+    <Compile Include="Assets/script/ScalebyDrag.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

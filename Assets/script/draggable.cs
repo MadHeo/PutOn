@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Collections;
 
 [RequireComponent(typeof(Image))]
 public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
@@ -15,7 +16,10 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     private void Awake()
     {
         createdImages = GameObject.Find("Canvas/page/Clothes/createdImages").transform;
+        
+
     }
+
 
 
     private void UpdateDraggingObjectPos(PointerEventData pointerEventData)
@@ -44,11 +48,16 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         }
 
         Image sourceImage = GetComponent<Image>();
+        
+
 
         draggingObject = new GameObject("Dragging Object");
         draggingObject.transform.SetParent(createdImages);
         draggingObject.transform.SetAsLastSibling();
         draggingObject.transform.localScale = Vector3.one;
+
+        draggingObject.AddComponent<ScalebyDrag>();
+
 
         CanvasGroup canvasGroup = draggingObject.AddComponent<CanvasGroup>();
         canvasGroup.blocksRaycasts = false;
@@ -60,6 +69,8 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         draggingImage.color = sourceImage.color;
         draggingImage.material = sourceImage.material;
 
+        
+
         canvasRectTransform = draggingImage.canvas.transform as RectTransform;
 
         UpdateDraggingObjectPos(pointerEventData);
@@ -69,12 +80,17 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     public void OnDrag(PointerEventData pointerEventData)
     {
         UpdateDraggingObjectPos(pointerEventData);
+
     }
 
     public void OnEndDrag(PointerEventData pointerEventData)
     {
         //ins
     }
+
+
 }
+
+
 
 
