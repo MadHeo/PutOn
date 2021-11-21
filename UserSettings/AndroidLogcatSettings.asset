@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R39M2013XLZ",
         "name": "com.DefaultCompany.PutOn",
-        "processId": 16737,
+        "processId": 20975,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -17,223 +17,73 @@
         {
             "deviceId": "R39M2013XLZ",
             "name": "com.DefaultCompany.PutOn",
-            "processId": 32390,
-            "exited": true
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 3112,
-            "exited": true
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 14559,
-            "exited": true
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 28216,
-            "exited": true
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 12120,
-            "exited": true
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 13612,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 21593,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 5369,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 6777,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 12046,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 13295,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 25782,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 9599,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 14737,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 16185,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 15641,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 16141,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 1347,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 25059,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 11032,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 15039,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 13026,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 11379,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 15275,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 16866,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 18151,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 28394,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 30504,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 1376,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 10236,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 12862,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 15105,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 16022,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 16805,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
-            "processId": 17119,
-            "exited": false
-        },
-        {
-            "deviceId": "R39M2013XLZ",
-            "name": "com.DefaultCompany.PutOn",
             "processId": 15399,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R39M2013XLZ",
             "name": "com.DefaultCompany.PutOn",
             "processId": 16737,
+            "exited": true
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 29475,
+            "exited": true
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 1366,
+            "exited": true
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 14457,
+            "exited": true
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.sec.android.app.launcher",
+            "processId": 30472,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 15490,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 15796,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 16206,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 18673,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 20573,
+            "exited": false
+        },
+        {
+            "deviceId": "R39M2013XLZ",
+            "name": "com.DefaultCompany.PutOn",
+            "processId": 20975,
             "exited": false
         }
     ],
