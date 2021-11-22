@@ -47,14 +47,14 @@ using UnityEngine.EventSystems;
 public class ScalebyDrag : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
 
-    private float rotationRate = 3.0f;
+    //private float rotationRate = 3.0f;
 
     public void OnDrag(PointerEventData eventData)
     {
         Debug.Log("Drag");
 
-        transform.Rotate(eventData.position.y * rotationRate,
-                                 -eventData.position.x * rotationRate, 0, Space.World);
+        //transform.Rotate(eventData.position.y * rotationRate,
+        //                         -eventData.position.x * rotationRate, 0, Space.World);
         // get the user touch inpun
         //foreach (Touch touch in Input.touches)
         //{
