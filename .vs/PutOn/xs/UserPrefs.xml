@@ -5,13 +5,13 @@
       <File FileName="Assets/script/OnClickGallery.cs" Line="93" Column="34" />
       <File FileName="Assets/Plugins/NativeGallery/Android/NGPermissionCallbackAndroid.cs" Line="1" Column="1" />
       <File FileName="Assets/Plugins/NativeGallery/NativeGallery.cs" Line="363" Column="3" />
-      <File FileName="Assets/script/draggable.cs" Line="30" Column="14" />
+      <File FileName="Assets/script/draggable.cs" Line="83" Column="1" />
       <File FileName="Assets/script/DraggAndDrop.cs" Line="28" Column="26" />
       <File FileName="Assets/script/ViewController.cs" Line="25" Column="2" />
       <File FileName="Assets/script/ClothesPage.cs" Line="14" Column="39" />
       <File FileName="Assets/script/CameraPage.cs" Line="31" Column="51" />
       <File FileName="Assets/script/CameraManager.cs" Line="4" Column="1" />
-      <File FileName="Assets/script/ScalebyDrag.cs" Line="17" Column="41" />
+      <File FileName="Assets/script/ScalebyDrag.cs" Line="48" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

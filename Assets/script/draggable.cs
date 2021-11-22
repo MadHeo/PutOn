@@ -4,6 +4,7 @@ using UnityEngine.EventSystems;
 using System.Collections;
 
 [RequireComponent(typeof(Image))]
+//[RequireComponent(typeof(ScalebyDrag))]
 public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [SerializeField]
@@ -16,7 +17,7 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     private void Awake()
     {
         createdImages = GameObject.Find("Canvas/page/Clothes/createdImages").transform;
-        
+
 
     }
 
@@ -55,15 +56,14 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         draggingObject.transform.SetParent(createdImages);
         draggingObject.transform.SetAsLastSibling();
         draggingObject.transform.localScale = Vector3.one;
-
-        draggingObject.AddComponent<ScalebyDrag>();
+        //draggingObject.AddComponent<ScalebyDrag>();
 
 
         CanvasGroup canvasGroup = draggingObject.AddComponent<CanvasGroup>();
         canvasGroup.blocksRaycasts = false;
 
         Image draggingImage = draggingObject.AddComponent<Image>();
-        draggingObject.AddComponent<DraggAndDrop>();
+        //draggingObject.AddComponent<DraggAndDrop>();
         draggingImage.sprite = sourceImage.sprite;
         draggingImage.rectTransform.sizeDelta = sourceImage.rectTransform.sizeDelta;
         draggingImage.color = sourceImage.color;
@@ -80,6 +80,7 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     public void OnDrag(PointerEventData pointerEventData)
     {
         UpdateDraggingObjectPos(pointerEventData);
+
 
     }
 
