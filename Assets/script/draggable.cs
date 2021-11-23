@@ -13,6 +13,7 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     private GameObject draggingObject;
     private RectTransform canvasRectTransform;
     private Transform createdImages;
+    public GameObject prefab;
 
     private void Awake()
     {
@@ -49,14 +50,16 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         }
 
         Image sourceImage = GetComponent<Image>();
-        
 
+        //GameObject DraggingPrefab = Instantiate(prefab, createdImages);
 
         draggingObject = new GameObject("Dragging Object");
         draggingObject.transform.SetParent(createdImages);
         draggingObject.transform.SetAsLastSibling();
         draggingObject.transform.localScale = Vector3.one;
-        //draggingObject.AddComponent<ScalebyDrag>();
+        draggingObject.AddComponent<ScalebyDrag>();
+
+
 
 
         CanvasGroup canvasGroup = draggingObject.AddComponent<CanvasGroup>();
@@ -69,7 +72,7 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         draggingImage.color = sourceImage.color;
         draggingImage.material = sourceImage.material;
 
-        
+
 
         canvasRectTransform = draggingImage.canvas.transform as RectTransform;
 
