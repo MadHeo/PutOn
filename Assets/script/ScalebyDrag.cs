@@ -51,7 +51,9 @@ public class ScalebyDrag : MonoBehaviour, IPointerDownHandler, IDragHandler, IPo
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("Drag");
+        Debug.Log("OnDrag");
+
+
 
         //transform.Rotate(eventData.position.y * rotationRate,
         //                         -eventData.position.x * rotationRate, 0, Space.World);
@@ -78,11 +80,11 @@ public class ScalebyDrag : MonoBehaviour, IPointerDownHandler, IDragHandler, IPo
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("Down");
+        Debug.Log("OnPointDown");
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        Debug.Log("Up");
+        Debug.Log("OnPointerUp");
     }
 }
