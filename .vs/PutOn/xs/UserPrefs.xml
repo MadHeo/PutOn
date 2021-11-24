@@ -1,23 +1,23 @@
 ﻿<Properties StartupConfiguration="{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/ScalebyDrag.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/GetPrefab.cs">
     <Files>
       <File FileName="Assets/script/OpenUrl.cs" Line="16" Column="1" />
-      <File FileName="Assets/script/OnClickGallery.cs" Line="93" Column="34" />
-      <File FileName="Assets/Plugins/NativeGallery/Android/NGPermissionCallbackAndroid.cs" Line="1" Column="1" />
-      <File FileName="Assets/Plugins/NativeGallery/NativeGallery.cs" Line="363" Column="3" />
-      <File FileName="Assets/script/draggable.cs" Line="13" Column="39" />
-      <File FileName="Assets/script/DraggAndDrop.cs" Line="12" Column="1" />
-      <File FileName="Assets/script/ViewController.cs" Line="25" Column="2" />
-      <File FileName="Assets/script/ClothesPage.cs" Line="14" Column="39" />
-      <File FileName="Assets/script/CameraPage.cs" Line="31" Column="51" />
-      <File FileName="Assets/script/CameraManager.cs" Line="4" Column="1" />
-      <File FileName="Assets/script/ScalebyDrag.cs" Line="61" Column="1" />
-      <File FileName="Assets/script/GetPrefab.cs" Line="7" Column="5" />
+      <File FileName="Assets/script/OnClickGallery.cs" />
+      <File FileName="Assets/Plugins/NativeGallery/Android/NGPermissionCallbackAndroid.cs" />
+      <File FileName="Assets/Plugins/NativeGallery/NativeGallery.cs" />
+      <File FileName="Assets/script/draggable.cs" Line="17" Column="1" />
+      <File FileName="Assets/script/DraggAndDrop.cs" />
+      <File FileName="Assets/script/ViewController.cs" />
+      <File FileName="Assets/script/ClothesPage.cs" />
+      <File FileName="Assets/script/CameraPage.cs" />
+      <File FileName="Assets/script/CameraManager.cs" />
+      <File FileName="Assets/script/ScalebyDrag.cs" />
+      <File FileName="Assets/script/GetPrefab.cs" Line="13" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fe3036a5-2daf-465a-a5ee-2149e49a9702" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b88c44aa-98b6-47c7-99fc-338588714f10" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
