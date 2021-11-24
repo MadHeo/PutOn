@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GetPrefab : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject prefab;
+    public Transform parent;
+
     void Start()
     {
-        
-    }
+        GameObject DraggingObject = Instantiate(prefab);
+        DraggingObject.GetComponent<Image>();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //DraggingObject.transform.position = 
+        //DraggingObject.Agent();
+        DraggingObject.SetActive(true);
+
     }
 }

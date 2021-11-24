@@ -2692,7 +2692,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draggingOffset: {x: 0, y: 40}
-  prefab: {fileID: 0}
+  canvasRectTransform: {fileID: 650924330}
+  prefab: {fileID: 4289414695745687990, guid: 777e7373143d844b6acea0177cee17be, type: 3}
 --- !u!114 &650924335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3808,7 +3809,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draggingOffset: {x: 0, y: 40}
-  prefab: {fileID: 0}
+  canvasRectTransform: {fileID: 924476018}
+  prefab: {fileID: 4289414695745687990, guid: 777e7373143d844b6acea0177cee17be, type: 3}
 --- !u!114 &924476023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4774,7 +4776,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draggingOffset: {x: 0, y: 40}
-  prefab: {fileID: 0}
+  canvasRectTransform: {fileID: 1111909524}
+  prefab: {fileID: 4289414695745687990, guid: 777e7373143d844b6acea0177cee17be, type: 3}
 --- !u!114 &1111909529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8350,7 +8353,6 @@ GameObject:
   - component: {fileID: 1670494174}
   - component: {fileID: 1670494176}
   - component: {fileID: 1670494173}
-  - component: {fileID: 1670494177}
   m_Layer: 5
   m_Name: clothes (1)
   m_TagString: Untagged
@@ -8443,19 +8445,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draggingOffset: {x: 0, y: 40}
+  canvasRectTransform: {fileID: 1670494172}
   prefab: {fileID: 4289414695745687990, guid: 777e7373143d844b6acea0177cee17be, type: 3}
---- !u!114 &1670494177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670494171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c72c22c440ba749afa1b206c67a7ca5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1673155219
 GameObject:
   m_ObjectHideFlags: 0
@@ -8920,7 +8911,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draggingOffset: {x: 0, y: 40}
-  prefab: {fileID: 0}
+  canvasRectTransform: {fileID: 1747558129}
+  prefab: {fileID: 4289414695745687990, guid: 777e7373143d844b6acea0177cee17be, type: 3}
 --- !u!114 &1747558134
 MonoBehaviour:
   m_ObjectHideFlags: 0
