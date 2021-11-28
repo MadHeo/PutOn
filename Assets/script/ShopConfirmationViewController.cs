@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class ShopConfirmationViewController : ViewController
 {
     [SerializeField] private Text messageLabel;
+    [SerializeField] private GameObject UserInfo;
 
     public override string Title { get { return "CONFIRMATION"; } }
 
@@ -29,6 +30,8 @@ public class ShopConfirmationViewController : ViewController
         okButtonTitle = "OK", okButtonDelegate = () =>
         {
             Debug.Log("OK.");
+            UserInfo.SetActive(true);
+
         },
 
         });
