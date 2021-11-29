@@ -23,10 +23,7 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         createdImages = GameObject.Find("Canvas/page/Clothes/createdImages").transform;
         sprite = GetComponent<Image>().sprite;
 
-        if (draggingPrefab != null)
-        {
-            Destroy(draggingPrefab);
-        }
+        
 
     }
 
@@ -45,6 +42,11 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                 draggingPrefab.transform.position = newPos;
                 draggingPrefab.transform.rotation = canvasRectTransform.rotation;
             }
+
+            //if (draggingPrefab != null)
+            //{
+            //    Destroy(draggingPrefab);
+            //}
         }
 
         
@@ -61,6 +63,9 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         draggingPrefab = Instantiate(prefab, createdImages);
         Image image = draggingPrefab.GetComponent<Image>();
         image.sprite = sprite;
+
+
+        
 
         //draggingObject = new GameObject("Dragging Object");
         //draggingObject.transform.SetParent(createdImages);
