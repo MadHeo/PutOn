@@ -9,7 +9,7 @@ public class DraggAndDrop : MonoBehaviour, IDragHandler
     public Vector3 LoadedPos;
     float startPosx;
     float startPosY;
-    bool isBeingHeld = false;
+    //bool isBeingHeld = false;
     public bool isInLine;
     float timelinePosY;
 
