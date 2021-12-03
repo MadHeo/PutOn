@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "265565344411",
+    "firebase_url": "https://puton-24fd7-default-rtdb.firebaseio.com",
+    "project_id": "puton-24fd7",
+    "storage_bucket": "puton-24fd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265565344411:android:93faf3cdabbd164888ec3e",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.PutOn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265565344411-56ji7e1lk0o39jee27mn7oesq0vdto5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAcYZm3onNuJMYh_xK_eez7VMovrqQlIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265565344411-56ji7e1lk0o39jee27mn7oesq0vdto5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
