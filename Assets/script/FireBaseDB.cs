@@ -47,5 +47,5 @@ public class FireBaseDB : MonoBehaviour
     //public class danny
     //{
     //    public string name = "";
-    }
+    
 }

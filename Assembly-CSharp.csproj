@@ -80,6 +80,7 @@
     <Compile Include="Assets/script/ShopItemTableViewCell.cs" />
     <Compile Include="Assets/script/ShopConfirmationViewController.cs" />
     <Compile Include="Assets/script/FireBaseDB.cs" />
+    <Compile Include="iTween\EaseType.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Parse/Plugins/Unity.Compat.dll" />

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class iTweenEventHandler : MonoBehaviour
 {
     public System.Action<Vector2> OnUpdateMoveDelegate { get; set; }
@@ -61,4 +62,7 @@ public static class iTweenUIExtensions
             "oncompletetarget", eventHandler.gameObject
             ));
     }
+
+    
 }
+

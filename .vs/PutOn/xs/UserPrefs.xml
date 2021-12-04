@@ -1,28 +1,15 @@
 ﻿<Properties StartupConfiguration="{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/FireBaseDB.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/iTweenEventHandler.cs">
     <Files>
-      <File FileName="Assets/script/OpenUrl.cs" Line="16" Column="1" />
-      <File FileName="Assets/script/OnClickGallery.cs" />
-      <File FileName="Assets/Plugins/NativeGallery/Android/NGPermissionCallbackAndroid.cs" />
-      <File FileName="Assets/Plugins/NativeGallery/NativeGallery.cs" />
-      <File FileName="Assets/script/draggable.cs" />
-      <File FileName="Assets/script/DraggAndDrop.cs" Line="90" Column="1" />
-      <File FileName="Assets/script/ViewController.cs" />
-      <File FileName="Assets/script/ClothesPage.cs" />
-      <File FileName="Assets/script/CameraPage.cs" />
-      <File FileName="Assets/script/CameraManager.cs" />
-      <File FileName="Assets/script/ScalebyDrag.cs" />
-      <File FileName="Assets/script/GetPrefab.cs" />
-      <File FileName="Assets/script/ShopConfirmationViewController.cs" />
-      <File FileName="Assets/script/AlertViewController.cs" />
-      <File FileName="Assets/script/NavigationViewController.cs" />
-      <File FileName="Library/PackageCache/com.unity.xr.management@4.0.1/Editor/Metadata/XRPackageMetadata.cs" Line="951" Column="1" />
-      <File FileName="Assets/script/FireBaseDB.cs" Line="1" Column="26" />
+      <File FileName="Assets/script/iTweenEventHandler.cs" Line="55" Column="25" />
+      <File FileName="Assets/script/OpenUrl.cs" />
+      <File FileName="iTween/EaseType.cs" />
+      <File FileName="Assets/script/OnClickGallery.cs" Line="65" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b88c44aa-98b6-47c7-99fc-338588714f10" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b5cea4f9-6919-4e59-a776-2dee1a628fae" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
