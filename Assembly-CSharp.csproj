@@ -66,6 +66,7 @@
     <Compile Include="Assets/script/TableViewCell.cs" />
     <Compile Include="Assets/script/DraggAndDrop.cs" />
     <Compile Include="Assets/script/OnClickGallery.cs" />
+    <Compile Include="Assets/script/FireBaseDB.cs" />
     <Compile Include="Assets/script/NavigationViewController.cs" />
     <Compile Include="Assets/script/ShopDetailViewController.cs" />
     <Compile Include="Assets/script/OpenUrl.cs" />
@@ -79,8 +80,6 @@
     <Compile Include="Assets/script/NewBehaviourScript.cs" />
     <Compile Include="Assets/script/ShopItemTableViewCell.cs" />
     <Compile Include="Assets/script/ShopConfirmationViewController.cs" />
-    <Compile Include="Assets/script/FireBaseDB.cs" />
-    <Compile Include="iTween\EaseType.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Parse/Plugins/Unity.Compat.dll" />
@@ -318,11 +317,14 @@
     <Reference Include="Firebase.App">
       <HintPath>Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Tasks">
-      <HintPath>Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+    <Reference Include="Firebase.Database">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.TaskExtension">
       <HintPath>Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="Google.MiniJson">
       <HintPath>Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
@@ -335,9 +337,6 @@
     </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Database">
-      <HintPath>Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -761,6 +760,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{5E7A7CFE-1A1E-4E66-E20D-913A05BEE1F1}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="NativeGallery.Editor.csproj">
+      <Project>{98DE8C18-879E-40F7-ACE7-BA9603DAD807}</Project>
+      <Name>NativeGallery.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NativeGallery.Runtime.csproj">
+      <Project>{35ADD159-C929-C5AC-CA0D-F68EB8ECA26A}</Project>
+      <Name>NativeGallery.Runtime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
