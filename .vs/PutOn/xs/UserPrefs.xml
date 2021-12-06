@@ -1,16 +1,25 @@
 ﻿<Properties StartupConfiguration="{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/Pixelplacement/iTween/iTween.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/ShopConfirmationViewController.cs">
     <Files>
+      <File FileName="Assets/script/AlertViewController.cs" Line="57" Column="13" />
       <File FileName="Assets/script/iTweenEventHandler.cs" Line="7" Column="1" />
       <File FileName="Assets/script/OpenUrl.cs" />
       <File FileName="iTween/EaseType.cs" />
-      <File FileName="Assets/script/OnClickGallery.cs" Line="65" Column="16" />
-      <File FileName="Assets/Plugins/Pixelplacement/iTween/iTween.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/OnClickGallery.cs" />
+      <File FileName="Assets/Plugins/Pixelplacement/iTween/iTween.cs" />
+      <File FileName="Assets/script/CameraManager.cs" />
+      <File FileName="Assets/script/CameraPage.cs" />
+      <File FileName="Assets/script/ViewController.cs" />
+      <File FileName="Assets/script/TableViewController.cs" />
+      <File FileName="Assets/script/NavigationViewController.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/ShopConfirmationViewController.cs" Line="38" Column="6" />
+      <File FileName="Assets/script/ShopitemTableViewController.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/ShopDetailViewController.cs" Line="17" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dedb5486-c89c-4616-8f07-e2f7a9084422" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="46d326fc-15ab-4d7d-b04b-0953057980e2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
