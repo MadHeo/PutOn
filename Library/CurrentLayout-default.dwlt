@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1440
     height: 771
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Hierarchy
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 184
+  controlID: 61
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 0
     width: 455
     height: 721
-  m_MinSize: {x: 275, y: 171}
-  m_MaxSize: {x: 4001, y: 8021}
+  m_MinSize: {x: 276, y: 192}
+  m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 18
+  controlID: 172
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 54
+  controlID: 88
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,10 +252,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 721
-  m_MinSize: {x: 708, y: 492}
+  m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 183
+  controlID: 87
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,8 +322,8 @@ MonoBehaviour:
     y: 0
     width: 455
     height: 403
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 18274
+  m_LastSelectedObjectID: 17400
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -499,9 +499,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 4cdaffff6adaffff72daffff08ddffff10ddffff1cddffff22dfffff40dfffff48dfffff54dfffff2cfaffffce4500002c47000062470000864700008c470000a04700003c4800005a48000034490000664900007e4900003ea800006ea80000caa80000
+      m_SelectedIDs: d0430000
+      m_LastClickedID: 17360
+      m_ExpandedIDs: 50fbfffff4ffffffbc410000f24100000442000018420000ac420000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -517,7 +517,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 6}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -612,10 +612,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 141}
-    m_SelectedIDs: 02450000
-    m_LastClickedID: 17666
-    m_ExpandedIDs: 00000000e2130000e4440000fa44000000ca9a3b
+    scrollPos: {x: 0, y: 45}
+    m_SelectedIDs: e8440000
+    m_LastClickedID: 17640
+    m_ExpandedIDs: 00000000c2440000d044000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -643,7 +643,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2130000e4440000
+    m_ExpandedIDs: 00000000c2440000c4440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 0000000012f8ffff0c12000012510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -695,10 +695,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 148}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 224.5
+  m_DirectoriesAreaWidth: 201.5
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
