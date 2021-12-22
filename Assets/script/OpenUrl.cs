@@ -17,5 +17,12 @@ public class OpenUrl : MonoBehaviour
     public void StuUrl2()
     {
         Application.OpenURL("https://stuoffice.com/product/lettering-t-shirt-navy-mens/1051/category/24/display/1/");
+
+
     }
+
+    //public void StuUrl2()
+    //{
+    //    Application.OpenURL("https://stuoffice.com/product/lettering-t-shirt-navy-mens/1051/category/24/display/1/");
+    //}
 }
