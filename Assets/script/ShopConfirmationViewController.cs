@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class ShopConfirmationViewController : ViewController
 {
+    [SerializeField] private Text messageLabel;
     [SerializeField] private GameObject UserInfo;
 
     public override string Title { get { return "CONFIRMATION"; } }
@@ -11,8 +12,8 @@ public class ShopConfirmationViewController : ViewController
     public void UpdateContent(ShopItemData itemData)
     {
 
-        //messageLabel.text = string.Format("Buy {0} for {1} coins?",
-        //    itemData.name, itemData.price.ToString());
+        messageLabel.text = string.Format("Buy {0} for {1} coins?",
+            itemData.name, itemData.price.ToString());
     }
 
     public void OnPressConfirmButton()
