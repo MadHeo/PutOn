@@ -11,10 +11,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}</ProjectGuid>
+    <ProjectGuid>{35ADD159-C929-C5AC-CA0D-F68EB8ECA26A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>NativeGallery.Runtime</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -47,33 +47,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\script\ScalebyDrag.cs" />
-     <Compile Include="Assets\script\iTweenEventHandler.cs" />
-     <Compile Include="Assets\script\ViewController.cs" />
-     <Compile Include="Assets\script\ShopitemTableViewController.cs" />
-     <Compile Include="Assets\script\draggable.cs" />
-     <Compile Include="Assets\script\ClothesPage.cs" />
-     <Compile Include="Assets\script\TableViewController.cs" />
-     <Compile Include="Assets\script\TableViewCell.cs" />
-     <Compile Include="Assets\script\DraggAndDrop.cs" />
-     <Compile Include="Assets\script\OnClickGallery.cs" />
-     <Compile Include="Assets\script\NavigationViewController.cs" />
-     <Compile Include="Assets\script\ShopDetailViewController.cs" />
-     <Compile Include="Assets\script\Firebase Realtime.cs" />
-     <Compile Include="Assets\script\OpenUrl.cs" />
-     <Compile Include="Assets\script\CameraPage.cs" />
-     <Compile Include="Assets\script\GetPrefab.cs" />
-     <Compile Include="Assets\script\SpriteSheetManager.cs" />
-     <Compile Include="Assets\script\AlertViewController.cs" />
-     <Compile Include="Assets\script\CameraManager.cs" />
-     <Compile Include="Assets\script\PagingScrollViewController.cs" />
-     <Compile Include="Assets\script\InstantiateToClothes.cs" />
-     <Compile Include="Assets\script\NewBehaviourScript.cs" />
-     <Compile Include="Assets\script\ShopItemTableViewCell.cs" />
-     <Compile Include="Assets\script\ShopConfirmationViewController.cs" />
-     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
-     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
-     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-database-unity\maven-metadata.xml" />
+     <Compile Include="Assets\Plugins\NativeGallery\iOS\NGMediaReceiveCallbackiOS.cs" />
+     <Compile Include="Assets\Plugins\NativeGallery\NativeGallery.cs" />
+     <Compile Include="Assets\Plugins\NativeGallery\iOS\NGMediaSaveCallbackiOS.cs" />
+     <Compile Include="Assets\Plugins\NativeGallery\Android\NGCallbackHelper.cs" />
+     <Compile Include="Assets\Plugins\NativeGallery\Android\NGPermissionCallbackAndroid.cs" />
+     <Compile Include="Assets\Plugins\NativeGallery\Android\NGMediaReceiveCallbackAndroid.cs" />
+     <None Include="Assets\Plugins\NativeGallery\NativeGallery.Runtime.asmdef" />
+     <None Include="Assets\Plugins\NativeGallery\README.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -287,6 +268,27 @@
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.PackageManagerResolver">
+ <HintPath>/Users/kwanggiheo/Desktop/PutOn/Assets/ExternalDependencyManager/Editor/1.2.167/Google.PackageManagerResolver.dll</HintPath>
+ </Reference>
  <Reference Include="Firebase.App">
  <HintPath>/Users/kwanggiheo/Desktop/PutOn/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
@@ -296,8 +298,23 @@
  <Reference Include="Firebase.TaskExtension">
  <HintPath>/Users/kwanggiheo/Desktop/PutOn/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
  </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>/Users/kwanggiheo/Desktop/PutOn/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver">
+ <HintPath>/Users/kwanggiheo/Desktop/PutOn/Assets/ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Editor">
+ <HintPath>/Users/kwanggiheo/Desktop/PutOn/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Tasks">
  <HintPath>/Users/kwanggiheo/Desktop/PutOn/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl">
+ <HintPath>/Users/kwanggiheo/Desktop/PutOn/Assets/ExternalDependencyManager/Editor/1.2.167/Google.VersionHandlerImpl.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver">
+ <HintPath>/Users/kwanggiheo/Desktop/PutOn/Assets/ExternalDependencyManager/Editor/1.2.167/Google.JarResolver.dll</HintPath>
  </Reference>
  <Reference Include="Google.MiniJson">
  <HintPath>/Users/kwanggiheo/Desktop/PutOn/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
@@ -662,102 +679,14 @@
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management.Editor">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARCore.Editor">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Subsystem.Registration">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARSubsystems.Editor">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARSubsystems">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARCore">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARFoundation.Editor">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARFoundation">
- <HintPath>/Users/kwanggiheo/Desktop/PutOn/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5E7A7CFE-1A1E-4E66-E20D-913A05BEE1F1}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="NativeCamera.Runtime.csproj">
-      <Project>{F8DF7397-6D2E-5C70-D6D2-853275860F38}</Project>
-      <Name>NativeCamera.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="NativeGallery.Editor.csproj">
-      <Project>{98DE8C18-879E-40F7-ACE7-BA9603DAD807}</Project>
-      <Name>NativeGallery.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="NativeCamera.Editor.csproj">
-      <Project>{E3325297-134F-7EE3-E79C-C5EC7BF08C8C}</Project>
-      <Name>NativeCamera.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="NativeGallery.Runtime.csproj">
-      <Project>{35ADD159-C929-C5AC-CA0D-F68EB8ECA26A}</Project>
-      <Name>NativeGallery.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

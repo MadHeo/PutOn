@@ -11,10 +11,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D361AF13-54F9-77DF-6A5A-8F7B0FC67B00}</ProjectGuid>
+    <ProjectGuid>{5E7A7CFE-1A1E-4E66-E20D-913A05BEE1F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -47,33 +47,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\script\ScalebyDrag.cs" />
-     <Compile Include="Assets\script\iTweenEventHandler.cs" />
-     <Compile Include="Assets\script\ViewController.cs" />
-     <Compile Include="Assets\script\ShopitemTableViewController.cs" />
-     <Compile Include="Assets\script\draggable.cs" />
-     <Compile Include="Assets\script\ClothesPage.cs" />
-     <Compile Include="Assets\script\TableViewController.cs" />
-     <Compile Include="Assets\script\TableViewCell.cs" />
-     <Compile Include="Assets\script\DraggAndDrop.cs" />
-     <Compile Include="Assets\script\OnClickGallery.cs" />
-     <Compile Include="Assets\script\NavigationViewController.cs" />
-     <Compile Include="Assets\script\ShopDetailViewController.cs" />
-     <Compile Include="Assets\script\Firebase Realtime.cs" />
-     <Compile Include="Assets\script\OpenUrl.cs" />
-     <Compile Include="Assets\script\CameraPage.cs" />
-     <Compile Include="Assets\script\GetPrefab.cs" />
-     <Compile Include="Assets\script\SpriteSheetManager.cs" />
-     <Compile Include="Assets\script\AlertViewController.cs" />
-     <Compile Include="Assets\script\CameraManager.cs" />
-     <Compile Include="Assets\script\PagingScrollViewController.cs" />
-     <Compile Include="Assets\script\InstantiateToClothes.cs" />
-     <Compile Include="Assets\script\NewBehaviourScript.cs" />
-     <Compile Include="Assets\script\ShopItemTableViewCell.cs" />
-     <Compile Include="Assets\script\ShopConfirmationViewController.cs" />
-     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
-     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
-     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-database-unity\maven-metadata.xml" />
+     <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\Plugins\Pixelplacement\iTween\iTween.cs" />
+     <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
+     <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\res\values\google-services.xml" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\AndroidManifest.xml" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -733,11 +713,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5E7A7CFE-1A1E-4E66-E20D-913A05BEE1F1}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="NativeCamera.Runtime.csproj">
       <Project>{F8DF7397-6D2E-5C70-D6D2-853275860F38}</Project>
       <Name>NativeCamera.Runtime</Name>

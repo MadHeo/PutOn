@@ -11,10 +11,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E3325297-134F-7EE3-E79C-C5EC7BF08C8C}</ProjectGuid>
+    <ProjectGuid>{98DE8C18-879E-40F7-ACE7-BA9603DAD807}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>NativeCamera.Editor</AssemblyName>
+    <AssemblyName>NativeGallery.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -47,8 +47,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\NativeCamera\Editor\NCPostProcessBuild.cs" />
-     <None Include="Assets\Plugins\NativeCamera\Editor\NativeCamera.Editor.asmdef" />
+     <Compile Include="Assets\Plugins\NativeGallery\Editor\NGPostProcessBuild.cs" />
+     <None Include="Assets\Plugins\NativeGallery\Editor\NativeGallery.Editor.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
