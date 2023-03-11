@@ -22,9 +22,6 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     {
         createdImages = GameObject.Find("Canvas/page/Clothes/createdImages").transform;
         sprite = GetComponent<Image>().sprite;
-
-        
-
     }
 
 
@@ -43,13 +40,12 @@ public class draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                 draggingPrefab.transform.rotation = canvasRectTransform.rotation;
             }
 
-            //if (draggingPrefab != null)
-            //{
+            //if (draggingPrefab != null) {
             //    Destroy(draggingPrefab);
             //}
         }
 
-        
+
 
 
     }
