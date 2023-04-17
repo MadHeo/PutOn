@@ -13,8 +13,7 @@
 
 ## 서비스 영상 
 
-![puton_play2](https://user-images.githubusercontent.com/86145287/232408854-eb878c66-008a-4f9a-b39b-b379524f104f.gif)
-
+![puton_play3](https://user-images.githubusercontent.com/86145287/232409294-e4d2198c-94a7-4ecd-80eb-1093edd095f4.gif)
 
 
 
