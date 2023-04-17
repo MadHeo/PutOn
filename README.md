@@ -13,7 +13,9 @@
 
 ## 서비스 영상 
 
-![puton_play](https://user-images.githubusercontent.com/86145287/232402001-b236c453-84d7-4435-9d73-0c60595c30a1.gif)
+![puton_play2](https://user-images.githubusercontent.com/86145287/232408854-eb878c66-008a-4f9a-b39b-b379524f104f.gif)
+
+
 
 
 ## 3D 오브젝트는 어떤식으로 제작되는지?
