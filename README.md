@@ -16,14 +16,12 @@
 ![puton_play3](https://user-images.githubusercontent.com/86145287/232409294-e4d2198c-94a7-4ecd-80eb-1093edd095f4.gif)
 
 
-
 ## 3D 오브젝트는 어떤식으로 제작되는지?
 
 3D 오브젝트로 이루어진 옷은 입점사의 브랜드에서 룩북을 보내주면 3D 디자이너가 사이즈별로 작업해서 다음과 같이 제공된다(예시)
 
-![444](https://user-images.githubusercontent.com/86145287/232403366-2dea4b98-0137-49aa-bacd-51827ad6bc82.jpeg)
-![333](https://user-images.githubusercontent.com/86145287/232403373-482a2c1d-4fa2-42f5-ab7d-9baa22774295.jpeg)
-
+![444](https://user-images.githubusercontent.com/86145287/232409733-0d2a64f9-5c6c-4507-8056-765c90f8545d.jpeg)
+![333](https://user-images.githubusercontent.com/86145287/232409742-c8a97cef-407f-4ff3-8388-8a57f9066407.jpeg)
 
 ## 아이폰에서도 가능한지?
 
@@ -32,5 +30,3 @@
 ## 입점사가 얻는 혜택은?
 
 입점사의 시즌 컬렉션을 모두 3D 오브젝트로 제작하며, 초반 한 달은 판매수수료를 받지 않는다.
-
-
